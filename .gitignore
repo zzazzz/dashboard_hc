@@ -1,0 +1,54 @@
+# =========================
+# DATA FILES - JANGAN UPLOAD
+# =========================
+*.xlsx
+*.xls
+*.csv
+*.parquet
+
+# Jika JSON berisi data sensitif
+*.json
+
+# Folder data
+data/
+dataset/
+datasets/
+
+# =========================
+# STREAMLIT SECRETS
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# ENVIRONMENT / CREDENTIALS
+# =========================
+.env
+.env.*
+credentials.json
+service_account.json
+*.pem
+*.key
+
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# =========================
+# IDE / EDITOR
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
